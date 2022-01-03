@@ -4,8 +4,16 @@
   "description": "Zolt is just another package manager.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "author": "yolocat",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.7",
+    "fetch": "^1.1.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "semver": "^7.3.5"
+  },
+  "type": "module"
 }
